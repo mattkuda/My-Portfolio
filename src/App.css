@@ -9,11 +9,11 @@ div, p, h1, h2, h3, h4, a, title{
 }
 
 h1{ 
-  color: #777;
+  color: #333333;
 }
 p, li, input, textarea, label{
   font-size: 16px !important;
-  color: #777;
+  color: #333333;
 }
 
 
@@ -191,7 +191,7 @@ a.anchor {
   min-height: 100px;
   
   border-radius: 10px;
-  color: #777;
+  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -203,7 +203,7 @@ a.anchor {
 .aboutme-skills{
   text-align: left;
   width: 100%;
-  color: #777;
+  color: #333333;
   
 }
 
@@ -287,7 +287,7 @@ a.anchor {
   min-height: 100px;
   background: white;
   border-radius: 10px;
-  color: #777;
+  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -326,13 +326,13 @@ a.anchor {
 
 a.nav-link:link
 {
-   color: #777;
+   color: #333333;
    font-size: 30px;
    text-decoration: none;
 }
 a.nav-link:visited
 {
-   color: #777;
+   color: #333333;
    text-decoration: none;
 }
 a.nav-link:hover
@@ -342,7 +342,7 @@ a.nav-link:hover
 }
 a.nav-link:active
 {
-   color: #777;
+   color: #333333;
    text-decoration: none;
 }
 

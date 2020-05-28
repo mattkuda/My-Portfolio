@@ -80,7 +80,7 @@ class Projects extends Component {
                         <div style={{width: "90%"}}>
                         <h2>To-Do List</h2>
                         <hr/>
-                        <p style={{ textAlign: "justify"}}>A simple To-Do List application that allows the user to enter and delte tasks, as well as mark them as complete. This project tested my implementation of the React fundamentals such as components, state, props, JSX, events.</p>
+                        <p style={{ textAlign: "justify"}}>A simple To-Do List application that allows the user to enter and delete tasks, as well as mark them as complete. This project tested my implementation of the React fundamentals such as components, state, props, JSX, and events.</p>
                         <div className="project-buttons-box">
                             <a href="https://todo-list-1f30e.web.app" class="project-button" target="_blank">Live Demo <i className="fa fa-external-link" aria-hidden="true" /></a>
                             <a href="https://github.com/mattkuda/To-Do-List" class="project-button" target="_blank">View Source   <i className="fa fa-github-square" aria-hidden="true"/></a>

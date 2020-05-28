@@ -25,7 +25,7 @@ class AboutMe extends Component {
                     {/*Right Half*/}
                     <Cell col={8}>
                         
-                        <p style={{textIndent: '50px'}}>I am an aspiring software developer from Boston, MA. As a Boston College 2020 graduate, my education included a variety of computer science courses including Computer Systems, Computer Organization, and Randomness & Computation. I enjoy being challenged and engaged with projects that require me to workoutside my comfort and knowledge set. Continuing to learn new languages and development techniques is part of my passion for developing beautiful, reliable software.</p>
+                        <p style={{textIndent: '50px'}}>I am an aspiring software developer from Boston, MA. As a Boston College 2020 graduate, my education included a variety of computer science courses such as Computer Systems, Computer Organization, and Randomness & Computation. I enjoy being challenged and engaged with projects that require me to work outside my comfort and knowledge set. Continuing to learn new languages and development techniques is part of my passion for developing beautiful, reliable software.</p>
 
                         <hr style={{margin: 'auto', width: '80%'}}/>
                         <br/>
@@ -40,7 +40,7 @@ class AboutMe extends Component {
                                     <li>Python</li>
                                 </ul>
                                 {/* View resume */}
-                                <a style={{ textAlign: "left"}} href="../../assets/Matthew_Kuda_Resume_Summer_2020.pdf" target="_blank" class="aboutme-button">View Resume (PDF)</a>
+                                <a style={{ textAlign: "left"}} href="../../assets/Matt_Kuda_Resume_Summer_2020.pdf" target="_blank" class="aboutme-button">View Resume (PDF)</a>
                             </Cell>
                             <Cell col={6}>
                             <p style={{textAlign:'left', fontWeight: 'bold'}}>Dev Tools:</p>
