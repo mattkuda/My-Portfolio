@@ -137,7 +137,7 @@ class Emailform extends Component {
                     
 
                         <label>Email</label>
-                            <input refs="email" name="email" type="text" size="30" placeholder="Email" onChange={this.handleChange.bind(this, "email")} value={this.state.fields["email"]}/>
+                            <input refs="email" name="email" type="text" size="30" placeholder="Your email" onChange={this.handleChange.bind(this, "email")} value={this.state.fields["email"]}/>
                             <span style={{color: "red"}}>{this.state.errors["message"]}</span>
                             <br/> 
                             

@@ -15,7 +15,7 @@ class Projects extends Component {
                     <Grid className="project-grid">
                     {/*Left Half*/}
                     <Cell col={6}>
-                        <img src="../../assets/Weather-App-Gif.gif" alt="Matt_Kuda_picture"
+                        <img src="../../assets/Weather_Gif_2.0.gif" alt="Weather_Gif"
                         style={{width:'95%', marginTop: '2em', textAlign: 'center'}}
                         />
                     </Cell>
@@ -26,7 +26,7 @@ class Projects extends Component {
                         <hr/>
                         <p style={{ textAlign: "justify"}}> Makes api calls to the Open Weather Map to return the current weather data of any specified location. Approiate weather icons are displayed according the conditions, the background becomes warm and cool with the temperature, and special animations are included for rain and snow. It uses the Modern Javascript Fetch AP along with React hooks and conditonals.</p>
                         <div className="project-buttons-box">
-                            <a href="https://weather-application-c8605.web.app" class="project-button" target="_blank">Live Demo <i className="fa fa-external-link" aria-hidden="true"/></a>
+                            {/*DEMO BUTTON <a href="https://weather-application-c8605.web.app" class="project-button" target="_blank">Live Demo <i className="fa fa-external-link" aria-hidden="true"/></a> */}
                             <a href="https://github.com/mattkuda/Weather-Application" class="project-button" target="_blank">View Source   <i className="fa fa-github-square" aria-hidden="true"/></a>
                         </div>
                         </div>
@@ -43,7 +43,7 @@ class Projects extends Component {
                     <Grid className="project-grid">
                     {/*Left Half*/}
                     <Cell col={6}>
-                        <img src="../../assets/Portfolio_Gif.gif" alt="Matt_Kuda_picture"
+                        <img src="../../assets/Portfolio_Gif_2.0.gif" alt="Portfolio_Gif"
                         style={{width:'95%', marginTop: '2em', textAlign: 'center'}}
                         />
                     </Cell>
@@ -54,7 +54,7 @@ class Projects extends Component {
                         <hr/>
                         <p style={{ textAlign: "justify"}}>This page! Responsive website built with ReactJS and Material Design. Its clean design includes a side navigation drawer, tab options for this project section, and congruent CSS styling across its various components. The contact form below validates user inputs before it is sent to Google Firebase, which was a tremendous learning experience for my knowledge on back-end development.</p>
                         <div className="project-buttons-box">
-                            <a href="https:mattkuda.com" class="project-button" target="_blank">Live Demo <i className="fa fa-external-link" aria-hidden="true"/></a>
+                            {/*DEMO BUTTON <a href="https:mattkuda.com" class="project-button" target="_blank">Live Demo <i className="fa fa-external-link" aria-hidden="true"/></a> */}
                             <a href="https://github.com/mattkuda/My-Portfolio" class="project-button" target="_blank">View Source   <i className="fa fa-github-square" aria-hidden="true"/></a>
                         </div>
                         </div>
@@ -71,7 +71,7 @@ class Projects extends Component {
                     <Grid className="project-grid">
                     {/*Left Half*/}
                     <Cell col={6}>
-                        <img src="../../assets/Todo-Gif.gif" alt="Matt_Kuda_picture"
+                        <img src="../../assets/Todo-Gif.gif" alt="To-Do_List_Gif"
                         style={{width:'95%', marginTop: '2em', textAlign: 'center'}}
                         />
                     </Cell>
@@ -82,7 +82,8 @@ class Projects extends Component {
                         <hr/>
                         <p style={{ textAlign: "justify"}}>A simple To-Do List application that allows the user to enter and delete tasks, as well as mark them as complete. This project tested my implementation of the React fundamentals such as components, state, props, JSX, and events.</p>
                         <div className="project-buttons-box">
-                            <a href="https://todo-list-1f30e.web.app" class="project-button" target="_blank">Live Demo <i className="fa fa-external-link" aria-hidden="true" /></a>
+
+                            {/*DEMO BUTTON <a href="https://todo-list-1f30e.web.app" class="project-button" target="_blank">Live Demo <i className="fa fa-external-link" aria-hidden="true" /></a> */}
                             <a href="https://github.com/mattkuda/To-Do-List" class="project-button" target="_blank">View Source   <i className="fa fa-github-square" aria-hidden="true"/></a>
                         </div>
                         </div>

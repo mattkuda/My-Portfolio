@@ -10,7 +10,7 @@ class MyFooter extends Component {
                 
                     {/*LinkedIn*/}
 
-                        <a href="https://www.linkedin.com/in/matthewkuda/" rel="noopener noreferrer"  target="_blank" style={{fontSize: '20px'}}>
+                        <a href="https://www.linkedin.com/in/mattkuda/" rel="noopener noreferrer"  target="_blank" style={{fontSize: '20px'}}>
                                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
                         </a>
                         {/*GitHub*/}

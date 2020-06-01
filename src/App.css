@@ -109,11 +109,7 @@ header-color div i{
 }
 /* LANDING */
 
-.projects-grid{
-  position: relative;
-  display: flex;
-  min-height: 100px;
-}
+
 
 /* Contact Page dfdf*/
 .tile-body{
@@ -284,7 +280,7 @@ a.anchor {
   text-align: center;
   justify-content: center;
   width: 100%;
-  min-height: 100px;
+  min-height: 380px;
   background: white;
   border-radius: 10px;
   color: #333333;
@@ -308,8 +304,7 @@ a.anchor {
     position: relative;
     border-radius: 4px;
     
-    
-    margin: 1em;
+    /* margin: 1em; */
 }
 
 .project-buttons-box{
