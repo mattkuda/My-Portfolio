@@ -38,6 +38,7 @@ class AboutMe extends Component {
                                     <li>CSS3</li>
                                     <li>Java</li>
                                     <li>Python</li>
+                                    <li>C++</li>
                                 </ul>
                                 {/* View resume */}
                                 <a style={{ textAlign: "left"}} href="../../assets/Matt_Kuda_Resume_Summer_2020.pdf" target="_blank" class="aboutme-button">View Resume (PDF)</a>
@@ -45,7 +46,8 @@ class AboutMe extends Component {
                             <Cell col={6}>
                             <p style={{textAlign:'left', fontWeight: 'bold'}}>Dev Tools:</p>
                                 <ul style={{textAlign: 'left'}}>
-                                    <li>Firebase</li>
+                                    <li>Google Firebase</li>
+                                    <li>GraphQL</li>
                                     <li>React MDL</li>
                                     <li>Node.js</li>
                                     <li>GitHub</li>

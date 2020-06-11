@@ -13,8 +13,8 @@ function App() {
         <Header scroll className="header-color" style={{background:'#444444'}} title={<a style={{textDecoration: 'none', color:'white'}} href="#welcome" scroll>Matt Kuda</a>}>
             <Navigation>
                 <a href='#aboutme' style={{fontSize: '20px'}}>About Me</a>
-                <a href='#projects' style={{fontSize: '20px'}}>Projects</a>
-                <a href='#contact' style={{fontSize: '20px'}}>Contact</a>
+                <a href='#projects' style={{fontSize: '20px', marginRight: '15px'}}>Projects</a>
+                <a href='#contact' className="contact-me-button" style={{fontSize: '20px', textDecoration: 'none'}}><span>Contact</span></a>
                 
                 {/*Old Formatting
                 <Link style={{fontSize: '20px'}} to="/projects">Projects</Link>

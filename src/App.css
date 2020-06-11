@@ -17,6 +17,7 @@ p, li, input, textarea, label{
 }
 
 
+
 /* GENERAL */
 
 
@@ -39,6 +40,7 @@ header-color div i{
 
 .header-links{
   font-size: 55px;
+  padding: 100px;
 }
 /* HEADER */
 
@@ -313,6 +315,54 @@ a.anchor {
   bottom: 20%;
 }
 
+/* CONTACT HEADER BUTTON */
+.contact-me-button{
+  border-spacing: 1px !important;
+  border-radius: 6px;
+  border: 2px solid #e5e5e5 !important;
+  height: 3rem;
+  position: relative !important;
+  margin-top: 0%;
+  line-height: 210% !important;
+
+  width: 75px;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.contact-me-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.contact-me-button:hover{
+  background-color: #7A7A7A;
+}
+
+.contact-me-button span:after {
+  content: '\00bb';
+  line-height: 129%;
+  font-size: 30px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.contact-me-button:hover span {
+  padding-right: 25px;
+}
+
+.contact-me-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* CONTACT FORM LINKS */
 
 .nav-link i{
   font-size: 30px;
