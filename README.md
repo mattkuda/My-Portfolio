@@ -1,5 +1,5 @@
 ## My Software Developer Portfolio
-<img src="/public/assets/Portfolio_Gif.gif">
+<img src="/public/assets/Portfolio_Gif_2.0.gif">
 
 Responsive website built with ReactJS and Material Design. 
 
