@@ -13,7 +13,8 @@ class Welcome extends Component {
                             <h1>Hi, I'm Matt.</h1>
                             <hr/>
                             <h2>Welcome to my Software Developer Portfolio</h2>
-                            
+                            <h2 className="resume-button">View Resume</h2>
+                            <br/>
                             <div className="social-links">
                                 {/*LinkedIn*/}
                                 

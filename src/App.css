@@ -42,6 +42,51 @@ header-color div i{
   font-size: 55px;
   padding: 100px;
 }
+
+.resume-button{
+    border-radius: 100px;
+    border: 3px solid #e5e5e5 !important;
+    padding: 10px 60px;
+    
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: 'auto';
+    margin-right: 'auto';
+    background: rgba(216, 216, 216, 0.2);
+    
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 black;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
+    overflow: hidden;
+
+    transition: 0.8s;
+}
+
+.resume-button:hover{
+  background: rgba(255, 150, 69, 0.6);
+}
+
+.resume-button::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: rgba(255, 150, 69, 0.6);
+  z-index: -1;
+  transition: 0.8s;
+  
+
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.resume-button:hover::before{
+  height: 180%;
+}
 /* HEADER */
 
 /* LANDING */
@@ -154,25 +199,6 @@ header-color div i{
   padding-bottom: 1rem;
 }
 
-/* About Me Page 
-.tile-body{
-  margin: auto;
-  background: white;
-  position: relative;
-  width: 80%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
-  margin-bottom: 40px;
-  border-radius: 10px;
-  
-  /*Shadowing
-  -webkit-box-shadow: 0 10px 6px -6px black;
-  -moz-box-shadow: 0 10px 6px -6px black;
-  box-shadow: 0 10px 6px -6px black;
-
-}
-*/
 
 /*ANCHOR*/
 a.anchor {
@@ -229,54 +255,6 @@ a.anchor {
   box-shadow: 0 10px 6px -6px black;
 }
 
-.aboutme-button{
- 
-  background-color: #444444; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  position: relative;
-  border-radius: 4px;
-  
-  
-  margin-left: 5rem;
-  margin-top: 2rem;
-}
-
-/* Resume Page 
-.resume-right-col{
-  background: #27221f;
-  color: white;
-  padding: 2em;
-}
-*/
-
-/* Project Page 
-.tile-body{
-  margin: auto;
-  
-  position: relative;
-  width: 80%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
-  
-  min-height: 550px;
-  background: white;
-  border-radius: 10px;
-  color: black;
-  margin-bottom: 40px;
-
-  /*Shadowing
-  -webkit-box-shadow: 0 10px 6px -6px black;
-  -moz-box-shadow: 0 10px 6px -6px black;
-  box-shadow: 0 10px 6px -6px black;
-}
-*/
 
 .project-grid{
   text-align: center;
