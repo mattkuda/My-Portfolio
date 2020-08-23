@@ -13,7 +13,7 @@ class Welcome extends Component {
                             <h1>Hi, I'm Matt.</h1>
                             <hr/>
                             <h2>Welcome to my Software Developer Portfolio</h2>
-                            <h2 className="resume-button">View Resume</h2>
+                            <a href="../../assets/Matt Kuda - Software Developer.pdf" target="_blank" ><h2 className="resume-button" >View Resume</h2></a>
                             <br/>
                             <div className="social-links">
                                 {/*LinkedIn*/}

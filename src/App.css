@@ -4,7 +4,7 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-div, p, h1, h2, h3, h4, a, title{
+div, p, h1, h2, h3, h4, a, title, textarea{
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -379,7 +379,7 @@ a.nav-link:active
   font-weight: 500;
   
 }
-input[type=text],input[type=email], select, textarea {
+input[type=text],input[type=email], select, textarea[type=text]{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
